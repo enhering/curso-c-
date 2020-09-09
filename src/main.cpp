@@ -8,6 +8,6 @@ int main() {
 
   int nInteiro = 5;
 
-  std::cout << "O meu número inteiro é " << nInteiro << st::endl;
+  std::cout << "O meu número inteiro é " << nInteiro << std::endl;
 
 }
