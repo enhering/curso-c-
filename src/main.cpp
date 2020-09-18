@@ -1,8 +1,19 @@
 #include "main.h"
 
 int main() {
-  std::cout << "Hello World!" << std::endl;
+  int Inteira;
+  double VariavelDoTipoNaoInteira;
 
-  std::cout << "Qualquer outra coisa" << std::endl;
+  Inteira = 5;
+  VariavelDoTipoNaoInteira = 4.8;
+
+  std::cout << "Olá. Minha variável do tipo inteira tem o valor "
+            << Inteira
+            << std::endl;
+
+  std::cout << "Olá. Minha variável do tipo não inteira tem o valor "
+            << VariavelDoTipoNaoInteira
+            << std::endl;
+
 }
 
