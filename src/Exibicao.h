@@ -1,3 +1,3 @@
 #include <iostream>
 
-int MostrarIdade(int);
+void MostrarIdade(int);
