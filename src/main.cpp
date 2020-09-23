@@ -18,9 +18,3 @@ int main() {
   std::cout << "A soma de 2 com 5 é " << Soma(2,5) << std::endl;
 
 }
-
-int Soma(int a, int b) {
-  int MnhaVar = 5 + g_Idade;
-
-  return a+b;
-}
