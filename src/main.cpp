@@ -1,19 +1,26 @@
 #include "main.h"
 
+int g_Idade = 10;
+
 int main() {
   int Inteira;
   double VariavelDoTipoNaoInteira;
 
-  Inteira = 5;
+  Inteira = 5 + g_Idade;
   VariavelDoTipoNaoInteira = 4.8;
 
-  std::cout << "Olá. Minha variável do tipo inteira tem o valor "
-            << Inteira
-            << std::endl;
+  MostrarIdade(g_Idade);
 
   std::cout << "Olá. Minha variável do tipo não inteira tem o valor "
             << VariavelDoTipoNaoInteira
             << std::endl;
 
+  std::cout << "A soma de 2 com 5 é " << Soma(2,5) << std::endl;
+
 }
 
+int Soma(int a, int b) {
+  int MnhaVar = 5 + g_Idade;
+
+  return a+b;
+}

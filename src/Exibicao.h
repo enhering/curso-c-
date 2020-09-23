@@ -1,0 +1,2 @@
+
+int MostrarIdade(int);
