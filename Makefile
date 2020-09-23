@@ -2,10 +2,10 @@
 all: exibicao operacoes meu_prog
 
 exibicao:
-  g++ -c -lstdc++ Exibicao.cpp
+  g++ -c -lstdc++ src/Exibicao.cpp
 
 operacoes:
-	g++ -c -lstdc++ Operacoes.cpp
+	g++ -c -lstdc++ src/Operacoes.cpp
 
 meu_prog:
-	g++ main.cpp Exibicao.o Operacoes.o -lstdc++ -o meu_prog
+	g++ src/main.cpp Exibicao.o Operacoes.o -lstdc++ -o meu_prog
